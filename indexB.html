@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактор диктанта</title>
+</head>
+
+<body>
+
+<div class="teacher">
+
+    <h3>Редактор диктанта (для учителя)</h3>
+
+    <label for="audioUpload">Загрузить аудио:</label><br>
+    <input type="file" id="audioUpload" accept="audio/*"><br><br>
+
+    <label for="originalText">Текст диктанта:</label><br>
+    <textarea id="originalText" rows="8" cols="60"></textarea><br><br>
+
+    <button id="saveDictation">Сохранить диктант</button>
+
+</div>
+
+<div id="result"></div>
+
+<script src="indexB.js"></script>
+
+</body>
+</html>
