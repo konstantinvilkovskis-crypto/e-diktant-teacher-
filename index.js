@@ -2,10 +2,11 @@ let saveBtn = document.querySelector("#saveDictation")
 
 saveBtn.addEventListener("click", function(){
 
-let text = document.querySelector("#originalText").value
+    let text = document.querySelector("#originalText").value
 
-localStorage.setItem("dictationText", text)
+    localStorage.setItem("dictationText", text)
 
-alert("Диктант сохранён")
+    alert("Диктант сохранён")
+
 
 })
